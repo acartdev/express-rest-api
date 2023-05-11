@@ -182,9 +182,6 @@ const generateTable = async(req,res)=>{
                 const newVal = data.replace("module.exports = router",routeFile(tableName))
                 fs.writeFileSync(directories+'\\router.js',newVal)
             })
-           
-            
-        
         return res.json({
             model:`sequelize-cli model:generate --name ${Uper} --attributes ${attr}`
         });
