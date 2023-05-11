@@ -1,6 +1,6 @@
 # express-rest-api
 
-## Install the dependencies
+## โหลดหรือโคลนเสร็จให้รันคำสั่ง
 ```bash
 yarn
 # or
